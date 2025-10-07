@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🧠 AI Icon Generator using Gemini API
 
-# Run and deploy your AI Studio app
+This project is an AI-powered icon generator built using Google's Gemini API. It allows users to generate high-quality, customized icons using natural language prompts. Perfect for designers, developers, and anyone in need of quick, unique iconography.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1qX9uvrG3kaQLxyK9_C3c0CJYetK389cC
+- ✨ AI-generated icons based on your text prompts
+- ⚡ Fast generation using Google's Gemini API
+- 💡 Simple, intuitive usage
+- 📦 Easily integrable into other projects or UIs
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **API:** Google Gemini API (Vision / Pro)
+- **Language:** Python (or specify your language)
+- **Deployment:** (e.g., Streamlit, Flask, FastAPI, or CLI-based)
 
+## 🧪 How It Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. The user provides a text prompt describing the desired icon.
+2. The app sends this prompt to the Gemini API.
+3. Gemini returns a generated image/icon based on the description.
+4. The icon is displayed or saved.
