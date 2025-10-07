@@ -1,0 +1,5 @@
+{
+  "name": "Icon Genie",
+  "description": "A simple web app that uses a structured JSON prompt to generate professional icons and logos with Gemini. Users enter a subject, and the app embeds it into a predefined style template to create high-quality images.",
+  "requestFramePermissions": []
+}
